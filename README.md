@@ -8,6 +8,12 @@
 curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-0.1-b
 ```
 
+```bash
+chmod +x converter
+```
+
+
+
 **Использование**
 
 ```bash
@@ -39,4 +45,3 @@ USDT TON: UQBUJ2r5r5MPbM68sbMgBmTVmcvwv6PpamlKTdsD8uTT2jkH
 TON: UQBUJ2r5r5MPbM68sbMgBmTVmcvwv6PpamlKTdsD8uTT2jkH
 
 **[Лицензия GNU General Public License v3.0](https://github.com/D1splay/convert-telegram-sticker/blob/main/LICENSE)** 
-
