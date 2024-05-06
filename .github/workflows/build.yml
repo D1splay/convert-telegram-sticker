@@ -3,7 +3,7 @@ name: Build Python Application
 on:
   push:
     branches:
-      - main
+      - beta
 
 jobs:
   build-windows:
