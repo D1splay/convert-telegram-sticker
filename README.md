@@ -5,7 +5,7 @@
 **Установка Windows**
 
 ```bash
-curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-0.2-beta-win-x64.exe
+curl -L -o converter.exe https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-0.2-beta-win-x64.exe
 ```
 
 **Установка macos**
