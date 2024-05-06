@@ -5,7 +5,7 @@
 **Установка**
 
 ```bash
-curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-0.1-b
+curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-{ver}-{plat}
 ```
 
 ```bash
@@ -21,7 +21,7 @@ chmod +x converter
 ```
 
 ```bash
-usage: convert_lib.py [-h] -i INPUT -o OUTPUT [-c]
+usage: converter [-h] [-i INPUT] [-o OUTPUT] [-c] [-t THREADS] [-a]
 
 Convert images to 512x512 PNG images with transparent padding.
 
@@ -32,6 +32,9 @@ options:
   -o OUTPUT, --output OUTPUT
                         Output folder for converted images
   -c, --convert         Convert images to PNG format if not already in PNG format
+  -t THREADS, --threads THREADS
+                        Number of threads for parallel processing
+  -a, --about           Show information about the program
 ```
 
 Донат:
