@@ -30,6 +30,11 @@ chmod +x converter
 ./converter -i /dir/test/in -o /dir/test/stickers -c -t 200
 ```
 
+windows
+```bash
+converter.exe -i /dir/test/in -o /dir/test/stickers -c -t 200
+```
+
 ```bash
 usage: converter [-h] [-i INPUT] [-o OUTPUT] [-c] [-t THREADS] [-a]
 
