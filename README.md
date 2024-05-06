@@ -17,7 +17,7 @@ chmod +x converter
 **Использование**
 
 ```bash
-./converter -i /dir/test/in -o /dir/test/stickers -c
+./converter -i /dir/test/in -o /dir/test/stickers -c -t 200
 ```
 
 ```bash
