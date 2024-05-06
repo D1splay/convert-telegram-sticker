@@ -23,7 +23,7 @@ jobs:
           pip install altgraph==0.17.4 certifi==2024.2.2 charset-normalizer==3.3.2 idna==3.7 macholib==1.16.3 packaging==24.0 pillow==10.3.0 pyinstaller==6.6.0 pyinstaller-hooks-contrib==2024.5 setuptools==63.2.0 tqdm==4.66.4 urllib3==2.2.1
 
       - name: Build executable for Windows
-        run: pyinstaller --onefile --noicon converter.py
+        run: pyinstaller --onefile converter.py
         shell: cmd
 
       - name: Archive production artifacts for Windows
