@@ -2,17 +2,27 @@
 
 Программа автоматизирует конвертацию большого количества файлов, не соответствующих формату стикеров для Telegram. Как это работает? У вас есть файлы размером 1000x1000 в формате .jpg, тогда как для стикеров в Telegram требуется формат .png размером 512x512. Программа позволит вам автоматизировать процесс обработки.
 
-**Установка**
+**Установка Windows**
 
 ```bash
-curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-{ver}-{plat}
+curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-0.2-beta-win-x64.exe
 ```
 
+**Установка macos**
+
+```bash
+curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-0.2-beta-macos-arm
+```
 ```bash
 chmod +x converter
 ```
-
-
+**Установка linux**
+```bash
+curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-0.2-beta-linux
+```
+```bash
+chmod +x converter
+```
 
 **Использование**
 
