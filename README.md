@@ -8,7 +8,7 @@
 curl -L -o converter.exe https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-0.2-beta-win-x64.exe
 ```
 
-**Установка macos**
+**Установка Macos**
 
 ```bash
 curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-0.2-beta-macos-arm
@@ -16,7 +16,7 @@ curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/release
 ```bash
 chmod +x converter
 ```
-**Установка linux**
+**Установка Linux**
 ```bash
 curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/releases/download/beta/converter-0.2-beta-linux
 ```
@@ -24,13 +24,13 @@ curl -L -o converter https://github.com/D1splay/convert-telegram-sticker/release
 chmod +x converter
 ```
 
-**Использование**
+**Использование(Linux/Macos)**
 
 ```bash
 ./converter -i /dir/test/in -o /dir/test/stickers -c -t 200
 ```
 
-windows
+**Использование (Windows)**
 ```bash
 converter.exe -i /dir/test/in -o /dir/test/stickers -c -t 200
 ```
@@ -52,7 +52,7 @@ options:
   -a, --about           Show information about the program
 ```
 
-Донат:
+**Донат:**
 
 BITCOIN: 1PNix46PfNvpZW4Hc84guu4b6auSUoytLQ
 
