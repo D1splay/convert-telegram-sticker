@@ -27,13 +27,14 @@ chmod +x converter
 **Использование(Linux/Macos)**
 
 ```bash
-./converter -i /dir/test/in -o /dir/test/stickers -c -t 200
+./converter -i /dir/test/input -o /dir/test/output -c -t 200
 ```
 
 **Использование (Windows)**
 ```bash
-converter.exe -i /dir/test/in -o /dir/test/stickers -c -t 200
+converter.exe -i C:\dir\test\input -o C:\dir\test\output -c -t 200
 ```
+**--help**
 
 ```bash
 usage: converter [-h] [-i INPUT] [-o OUTPUT] [-c] [-t THREADS] [-a]
